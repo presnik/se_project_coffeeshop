@@ -9,8 +9,8 @@
 
 .header {
   height: 800px;
-  background-color: #fff;
-  background-image: url("./images/background_header.svg");
+
+  background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
