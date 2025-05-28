@@ -9,7 +9,7 @@
 
 .header {
   height: 800px;
-
+  position: relative;
   background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,6 +24,12 @@
   border: rgb(255, 0, 0) 2px dotted;
 }
 
+.nav__logo {
+  position: relative;
+  width: 105px;
+  height: 39px;
+}
+
 .nav__links {
   display: flex;
   align-items: center;
@@ -31,11 +37,16 @@
   margin: 8px 0 0;
   list-style: none;
   padding: 0;
-
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   border: cyan 2px dotted;
 }
 
 .header__title {
+  position: relative;
   font-size: 36px;
   line-height: 44px;
   font-weight: 600;
@@ -48,43 +59,38 @@
   display: block;
   color: #3f96f3;
   font-style: italic;
-
   font-family: "Noto Serif";
-
   font-style: italic;
-
   font-weight: normal;
-
   font-size: 60px;
-
   line-height: 72px;
-
   color: #3f96f3;
   border: rgb(255, 0, 0) 2px dotted;
 }
 
 .header__span-regular {
   font-family: "Inter";
-
   font-style: normal;
-
   font-weight: 500;
-
   font-size: 60px;
-
   line-height: 72px;
-
   letter-spacing: -0.6px;
   display: block;
 }
 
 .header__description {
+  max-width: 729px;
 }
 
 .header__image {
+  width: 646px;
+  height: 568px;
   position: absolute;
+  right: 5px;
+  top: 124px;
 }
 
 .header__footer {
+  display: flex;
   border: rgb(44, 25, 218) 3px dotted;
 }
