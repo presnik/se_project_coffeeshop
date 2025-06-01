@@ -13,4 +13,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+More ideas will be added
+
+## GIF of the project's functionality
+
+![Triple Espresso Recipes Demo](images/Triple_Espresso_Recipes_Demo.gif)
