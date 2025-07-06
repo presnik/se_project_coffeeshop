@@ -1,0 +1,17 @@
+.card {
+  border: 3px solid #d31bab;
+}
+
+.card__title {
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__list-divider {
+  display: flex;
+  color: #d31bab;
+}
