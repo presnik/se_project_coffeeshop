@@ -1,17 +1,26 @@
 .card {
-  border: 3px solid #d31bab;
+  border: 1px solid #d31bab;
+  width: 540px;
 }
 
 .card__title {
+  margin: 0 0 32px;
 }
 
 .card__list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__list-item {
+  display: flex;
 }
 
 .card__list-divider {
-  display: flex;
-  color: #d31bab;
+  border-bottom: black 1px solid;
+  flex-grow: 1;
 }
