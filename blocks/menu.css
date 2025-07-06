@@ -1,0 +1,46 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu__title {
+  max-width: 780px;
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  margin: 24px auto;
+  text-align: center;
+}
+
+.menu__cards {
+  display: flex;
+
+  justify-content: center;
+  gap: 100px;
+}
+
+.card {
+  border: 3px solid #d31bab;
+}
+
+.card__title {
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.card__list-divider {
+  display: flex;
+    color: #d31bab;
+  
+}
