@@ -7,7 +7,6 @@
   position: relative;
   color: #ffffff;
   overflow: hidden;
-  z-index: 0;
 }
 
 .about__title {
@@ -18,6 +17,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 100px 0 0;
+  z-index: 1;
 }
 
 .about__content {
@@ -43,7 +43,6 @@
   border-radius: 50%;
   margin: 0 0;
   background-color: #1878dc;
-  z-index: -1;
 }
 
 .about__circle_animation_blurred {
@@ -58,7 +57,7 @@
     opacity: 0.6;
   }
   100% {
-    opacity: 1.3;
+    opacity: 1;
     transform: scale(1.2);
   }
 }
