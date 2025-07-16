@@ -29,5 +29,5 @@
 
 .nav__link:hover {
   opacity: 0.5;
-  transition:  0.17s ease-in-out;
+  transition: all 0.17s ease-in-out;
 }

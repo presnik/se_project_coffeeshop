@@ -46,18 +46,29 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-in-out 0s infinite;
+  animation: pulsate 2s ease-in-out 0s infinite;
 }
 
 @keyframes pulsate {
   0% {
-    opacity: 0;
+    opacity: 0.7;
+    transform: scale(1);
+    box-shadow: 0 0 40px 10px rgba(24, 120, 220, 0.4);
   }
   50% {
-    opacity: 0.6;
+    opacity: 1;
+    transform: scale(1.15);
+    box-shadow: 0 0 60px 20px rgba(24, 120, 220, 0.6);
   }
   100% {
-    opacity: 1;
-    transform: scale(1.2);
+    opacity: 0.7;
+    transform: scale(1);
+    box-shadow: 0 0 40px 10px rgba(24, 120, 220, 0.4);
   }
+}
+.section-separator {
+  border: none;
+  border-bottom: 1px solid #1d4a86;
+  margin: 0;
+  width: 100%;
 }
