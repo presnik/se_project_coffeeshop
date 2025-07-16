@@ -66,9 +66,4 @@
     box-shadow: 0 0 40px 10px rgba(24, 120, 220, 0.4);
   }
 }
-.section-separator {
-  border: none;
-  border-bottom: 1px solid #1d4a86;
-  margin: 0;
-  width: 100%;
-}
+
