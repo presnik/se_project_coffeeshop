@@ -13,7 +13,7 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-- Add a separator between Aout and Footer sections for better visual distinction
+- Add a separator between About and Footer sections for better visual distinction
 - Improve the circle animation in the About section to make it smoother
 
 ## GIF of the project's functionality
