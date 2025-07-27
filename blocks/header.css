@@ -8,13 +8,11 @@
   flex-direction: column;
 }
 
-
-
 .header__title {
   position: relative;
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 500;
   color: #000;
   margin: 183px 0 0;
   max-width: 729px;
@@ -25,8 +23,6 @@
   font-style: italic;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
 }
 
 .header__description {
@@ -63,4 +59,3 @@
 .header__paragraph {
   margin: 0;
 }
-
